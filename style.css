@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     background: #6397dbe8;
 }
+
 .container{
     display: flex;
     min-height: 50vh;
@@ -19,4 +20,8 @@ body{
     align-items: center;
     justify-content: center;
     background: #8ec9d196;
+}
+
+{
+    
 }
