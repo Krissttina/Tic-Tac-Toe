@@ -1,6 +1,6 @@
 const selectBox = document.querySelector("select-box"),
-selectBtnX = selectBox.querySelector(".options .playerX"),
-selectBtnO = selectBox.querySelector(".options .playerO"),
+selectBtnX = document.querySelector(".options .playerX"),
+selectBtnO = document.querySelector(".options .playerO"),
 playBoard = document.querySelector(".play-board"),
 players = document.querySelector(".players"),
 allBox = document.querySelectorAll("section span"),
@@ -13,15 +13,15 @@ window.onload = () => {
        allBox[i].setAttribute("onclick", "clickedBox(this)");
     }
 }
-
-function showResult() {
-    if (resultBox .style.display === "none") {
-        resultBox .style.display = "block";
+/*
+function hideStart() {
+    if (selectBox === "Player (X)") {
+        selectBox.style.display = "none";
     } else {
-        resultBox .style.display = "none";
+        selectBox.style.display = "block";
     }
   }
-
+*/
 
 //selecting player
 selectBtnX.onclick = ()=>{
@@ -121,6 +121,7 @@ function selectWinner(){
     }
 }
 
-replayBtn.onclick = ()=>{
+//replay btn reloads the page
+replayBtn.onclick = () =>{
     window.location.reload();
 }

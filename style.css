@@ -226,3 +226,16 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+/*maybe */
+.btn button::after{
+  font-size: 20px;
+  font-weight: 510;
+  padding: 8px 20px;
+  border: none;
+  background: #3d7d9c;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
