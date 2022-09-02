@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightseagreen;
+  background-color: rgb(29, 37, 37);
   height: 100vh;
   font-family: Helvetica, sans-serif;
   display: flex;
@@ -13,6 +13,28 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.board-player{
+  background: #fff;
+  width: 17%;
+  border-radius: 10px;
+}
+
+.players{
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 3px;
+}
+
+.players span{
+  justify-content: space-between;
+}
+
+.players span.active{
+  background: yellowgreen;
+  color: #fff;
 }
 
 .board {
@@ -24,7 +46,7 @@ body {
   gap: 2px;
   background-image: url(grid.png);
   background-size: cover;
-  border-radius: 3rem;
+  border-radius: 1rem;
   box-shadow: 0 0 15px 5px rgba(50, 50, 50, 0.5);
 }
 
