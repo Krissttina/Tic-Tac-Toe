@@ -1,24 +1,14 @@
-# Tic-Tac-Toe
-## Content
-- [Intro](#intro)
-- [Description](#description)
-- [Research](#research)
-- [Rules](#rules)
-- [Image](#image)
-- [Building](#building)
-- [Technology](#technology)
+## Tic-Tac-Toe
 
-### Intro
-### Description
+You can try live demo by clicking on 'github-pages' in Environments ->
 
-### Research
+The upper field shows player turn.
+When a player wins or tha game is tie a text is displayed above the Restart button.
 
-### Rules
-
-### Images
-![Game insight]()
-
-### Building
-
+![preview](img/preview.png)
 
 ### Technology
+
+- HTML
+- CSS
+- JavaScript
