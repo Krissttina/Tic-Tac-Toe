@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Tic Tac Toe</title>
 </head>
 <body>
-  <!--Players-->
-  <div class="board-player">
-    <div class="players">
-      <span class="xTurn active">X's turn!</span>
-      <span class="oTurn">O's turn!</span>
-    </div>
-  </div>
+  <!--Players turn-->
+  <section class="players">
+    <span class="xTurn active">X's turn!</span>
+    <span class="oTurn">O's turn!</span>
+  </section>
   <!--Board-->
   <section class="board">
     <div class="cell"></div>
@@ -28,9 +26,9 @@
   </section>
   <!--Result-->
   <h1 id="result"></h1>
-  <!--Restart-->
+  <!--Restart Button-->
   <button id="restart">Restart Game</button>
 
-  <script type="text/javascript" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
